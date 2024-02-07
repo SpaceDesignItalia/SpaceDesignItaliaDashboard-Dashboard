@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url("./assets/Background.png") no-repeat;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+}

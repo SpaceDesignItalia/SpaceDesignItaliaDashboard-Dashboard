@@ -1,0 +1,38 @@
+{
+  "hash": "1741d58b",
+  "browserHash": "710ec6df",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "8ac1ffc2",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c64bf3e5",
+      "needsInterop": true
+    },
+    "@nextui-org/react": {
+      "src": "../../node_modules/@nextui-org/react/dist/index.mjs",
+      "file": "@nextui-org_react.js",
+      "fileHash": "c630e59d",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "7c3c63b1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-KJUJBIHA": {
+      "file": "chunk-KJUJBIHA.js"
+    },
+    "chunk-W4VDMLRG": {
+      "file": "chunk-W4VDMLRG.js"
+    }
+  }
+}
