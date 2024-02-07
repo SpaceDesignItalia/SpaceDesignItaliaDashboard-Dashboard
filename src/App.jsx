@@ -3,11 +3,13 @@ import { Route, Routes, Navigate, Outlet, useNavigate } from "react-router-dom";
 import { Spinner } from "@nextui-org/react";
 import axios from "axios";
 import { API_URL } from "./API/API";
-import { Home, Login } from "@mui/icons-material";
+import Home from "./Pages/Home/Home";
+import Login from "./Pages/Login/Login";
+import Sidebar from "./Components/Layout/Sidebar";
 
 function App() {
-  const [isAuth, setIsAuth] = useState(false);
-  const [isLoading, setIsLoading] = useState(true); // Set initial loading state to true
+  const [isAuth, setIsAuth] = useState(true);
+  const [isLoading, setIsLoading] = useState(false); // Set initial loading state to true
 
   /* useEffect(() => {
     axios
@@ -54,6 +56,7 @@ function App() {
 
   return (
     <>
+      <Sidebar />
       <Routes>
         <Route element={<LoginRoute isAuth={isAuth} />}>
           <Route exact path="/login" element={<Login />} />
